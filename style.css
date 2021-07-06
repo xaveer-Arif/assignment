@@ -30,3 +30,21 @@ h1{
    background-position:right bottom;
 
 }
+.alignment{
+    text-align: center;
+    margin: 0 250px;
+}
+.box{
+    width: 100%;
+    display: flex;
+    padding-left: 55px;
+   
+}
+.inner-box{
+    width: 25%;
+    margin: 0 2.5%;
+   box-shadow: 10px 10px 20px gray;
+}
+.inner-box img{
+    width: 80%;
+}
