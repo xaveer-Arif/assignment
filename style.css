@@ -5,7 +5,35 @@ body{
     padding: 0px;
     overflow-x: hidden; 
 }
+header{
+    padding: 10px;
+    background-color: tomato;
+}
+ul{
+    
+    margin-bottom: 50px;
+    
+}
+ul li{
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    
 
+    
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    /* border:  1px solid rgb(182, 82, 65); */
+    /* background-color: orange; */
+    font-size: 22px;
+}
+ul li a:hover{
+    background-color:rgb(189, 77, 58);
+    
+}
 .flex{
     display: flex;
 
@@ -74,4 +102,11 @@ footer{
     padding-bottom: 85px;
     margin-top: 100px;
    
+}
+.logo{
+    float: left;
+    height: auto;
+    width: 150px;
+    margin-left: 20PX;
+    
 }
